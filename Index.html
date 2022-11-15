@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Reflex</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+	background-image: url('Background.jpg');
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: clear;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%; 
+  background: #ccc;
+  padding: 30px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 65%;
+  background-color: lightgrey;
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: grey;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: 300px;
+  }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h2>The Game of Reflex</h2>
+</header>
+
+<section>
+  <nav>
+	<ul style="color:purple;">
+		<li style="font-size:2.5vw"><center><u> Features </u></center></li>
+		<li> <center> Moving Platforms </center> </li>
+<br>
+<br>
+		<li> <center> Different Pathways </center> </li>
+<br>
+<br>
+		<li> <center> Player Accounts </center> </li>
+<br>
+<br>
+<center><a href="GameFile.zip" download>Download ZIP for game! </a></center>
+	</ul>
+  </nav>
+  
+  <article>
+    <h1 style="color:purple;"><center><u>Reflex</u></center></h1>
+    <p><center>This game is designed to test the players ability to read the next platform and where to land.</center></p>
+    <p><center>I decided to make this game off of the other idea that is out in the market that is for practicing their aim for other shooter games.</center><br></p>
+  </article>
+</section>
+
+<footer>
+  <p>Starting Area</p>
+<img src="CaptureGameStartingArea.PNG" alt
+<br>
+<br>
+<br>
+<br>
+<p> Updated Starting Area</p>
+<img src="CaptureGameStartingArea2.PNG" alt
+
+</footer>
+
+</body>
+</html>
+
